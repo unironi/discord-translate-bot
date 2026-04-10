@@ -16,10 +16,11 @@ Output of Translate Bot:
 ![alt text](image.png)
 
 
-Future extensions:
+Potential future extensions:
 - make the output look a little prettier by using TextDisplayBuiler which lets you do markdown
 - have the option to input message ID or the content of the message
 - deploy the bot so it runs 24/7
+- default message behaviour so that only you can see it, with options to dismiss or to make it viewable by the rest of the server
 
 Resources:
 - https://discordjs.guide/legacy
