@@ -27,7 +27,7 @@ module.exports = {
 			.setAutocomplete(true)),
 
 	async autocomplete(interaction) {
-		const focusedValue = interacgition.options.getFocused().toLowerCase();
+		const focusedValue = interaction.options.getFocused().toLowerCase();
 
 		const languages = await getLanguages();
 
@@ -60,6 +60,6 @@ module.exports = {
 
 		console.log(`translation: ${translations}`);
 
-		await interaction.editReply(`Message by ${message.author.globalName}: ${text}\n Translation to ${target}: ${translations}`);
+		await interaction.editReply(`Message by ${message.author.globalName}:\n${text}\n\nTranslation:\n${translations}`);
 	},
 };
