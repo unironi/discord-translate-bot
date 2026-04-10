@@ -1,15 +1,20 @@
 ## Discord Translate Bot
 
-Translates messages in a server by running the command `/translate [message_link (required)] [translate_to (optional)]`
+Translates messages in a server by running the command `/translate [message_link] [translate_to]`
+
+`translate_to` is an optional argument and will default to English if there is no selection.
 
 Copy message link:
 ![alt text](image-2.png)
 
+
 Input command and paste link, and optionally pick language to translate to:
 ![alt text](image-1.png)
 
+
 Output of Translate Bot:
 ![alt text](image.png)
+
 
 Future extensions:
 - make the output look a little prettier by using TextDisplayBuiler which lets you do markdown
